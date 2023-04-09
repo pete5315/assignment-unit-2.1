@@ -15,11 +15,11 @@ let luckyNumber=2
 // Refer back to the videos if you need help with this one.
 console.log("My name is "+fullName+" I think "+luckyNumber+" is a winner!")
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-let adventurous=false
+let adventurous="string"
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food="Pancakes"
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-let pets=1
+let pets=3
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets=7
 // 11 - Add two pets to your `pets` variable
@@ -91,10 +91,5 @@ switch(luckyNumber) {
 }
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
-// Oops, I already did that. I'll write two if statements here instead.
-if (adventurous===true) {
-    console.log("Adventures are great!")
-}
-if (adventurous===false) {
-    console.log("How about we stay home?")
-}
+
+adventurous ? console.log("Adventures are great!") : console.log("How about we stay home?")
